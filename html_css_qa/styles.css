@@ -1,0 +1,28 @@
+/* classes start with a period */
+.red-fantasy {
+    color: red;
+    font-family: monospace;
+    background-color: #ccc;
+    padding: 25px;
+    margin: 25px 10px 5px 3px;
+    /* top bottom left right */
+    /* border has to have style width color */
+    border:5px dotted purple;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    display: block;
+}
+
+
+a:hover {
+    color: purple;
+    cursor: crosshair;
+}
+
+/*ids start with pounds*/
+#title {
+    background-color: #ccc;
+}
